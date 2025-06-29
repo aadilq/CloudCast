@@ -16,6 +16,7 @@
 		997BF60C29D4838E0099F2B4 /* CloudCastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BF60B29D4838E0099F2B4 /* CloudCastUITests.swift */; };
 		997BF60E29D4838E0099F2B4 /* CloudCastUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BF60D29D4838E0099F2B4 /* CloudCastUITestsLaunchTests.swift */; };
 		B8BBB1912E09BD020075FBA6 /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BBB1902E09BD020075FBA6 /* ForecastViewController.swift */; };
+		B8BBB1932E0F517E0075FBA6 /* WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BBB1922E0F517D0075FBA6 /* WeatherForecast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		997BF60B29D4838E0099F2B4 /* CloudCastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudCastUITests.swift; sourceTree = "<group>"; };
 		997BF60D29D4838E0099F2B4 /* CloudCastUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudCastUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B8BBB1902E09BD020075FBA6 /* ForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewController.swift; sourceTree = "<group>"; };
+		B8BBB1922E0F517D0075FBA6 /* WeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		997BF5DE29D4838D0099F2B4 = {
 			isa = PBXGroup;
 			children = (
+				B8BBB1922E0F517D0075FBA6 /* WeatherForecast.swift */,
 				B8BBB1902E09BD020075FBA6 /* ForecastViewController.swift */,
 				997BF5E929D4838D0099F2B4 /* CloudCast */,
 				997BF60029D4838E0099F2B4 /* CloudCastTests */,
@@ -261,6 +264,7 @@
 				997BF5EB29D4838D0099F2B4 /* AppDelegate.swift in Sources */,
 				997BF5ED29D4838D0099F2B4 /* SceneDelegate.swift in Sources */,
 				B8BBB1912E09BD020075FBA6 /* ForecastViewController.swift in Sources */,
+				B8BBB1932E0F517E0075FBA6 /* WeatherForecast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
