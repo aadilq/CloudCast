@@ -12,6 +12,8 @@ struct WeatherForecast{
     let temperature: Double
     let date: Date
     let weatherCode: WeatherCode
+    let windSpeed: Double
+    let precipitation: Double
 }
 
 enum WeatherCode{
