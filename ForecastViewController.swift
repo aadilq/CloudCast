@@ -39,6 +39,12 @@ class ForecastViewController: UIViewController {
     }
     
     
+    @IBAction func didTapForwardButton(_ sender: UIButton) {
+        selectedForecastIndex = min(forecasts.count - 1, selectedForecastIndex + 1)
+        configure(with: forecasts[selectedForecastIndex])
+    }
+    
+    
     
     private func createMockData() -> [WeatherForecast] {
             // This is just using the Calendar API to get a few random dates

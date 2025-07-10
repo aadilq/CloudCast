@@ -69,6 +69,15 @@
                                     <action selector="didTapBackButton:" destination="IKz-Mg-AQL" eventType="touchUpInside" id="f24-nY-AHD"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XUj-YR-czE">
+                                <rect key="frame" x="311" y="408" width="38" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="▶"/>
+                                <connections>
+                                    <action selector="didTapForwardButton:" destination="IKz-Mg-AQL" eventType="touchUpInside" id="Rcz-72-8xP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="UiI-Zx-Edm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
