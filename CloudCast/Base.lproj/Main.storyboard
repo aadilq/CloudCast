@@ -60,6 +60,15 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9F-9O-4dH">
+                                <rect key="frame" x="16" y="409" width="75" height="34.333333333333314"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="◀"/>
+                                <connections>
+                                    <action selector="didTapBackButton:" destination="IKz-Mg-AQL" eventType="touchUpInside" id="f24-nY-AHD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="UiI-Zx-Edm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

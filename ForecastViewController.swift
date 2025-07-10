@@ -20,14 +20,25 @@ class ForecastViewController: UIViewController {
     
     @IBOutlet weak var temperatureLabel: UILabel!
     
+    
+    
     private var forecasts =  [WeatherForecast]()
-    private var selectedForecastIndex = 0 //tracks which forecast is being shown, automatically defaults to 0
+    private var selectedForecastIndex = 2 //tracks which forecast is being shown, automatically defaults to 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        
+        forecasts = createMockData()
+        configure(with: forecasts[selectedForecastIndex])
 
     }
+    
+    @IBAction func didTapBackButton(_ sender: UIButton) {
+        selectedForecastIndex = max(0, selectedForecastIndex - 1)
+        configure(with: forecasts[selectedForecastIndex])
+    }
+    
+    
     
     private func createMockData() -> [WeatherForecast] {
             // This is just using the Calendar API to get a few random dates
@@ -64,7 +75,8 @@ class ForecastViewController: UIViewController {
         
     }
     
+    
 
-
-
+    
+    
 }
